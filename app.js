@@ -4,6 +4,9 @@
 // node.js starter application for Bluemix
 //------------------------------------------------------------------------------
 
+//For Auto-scaling
+  var agent = require('bluemix-autoscaling-agent');
+
 // This application uses express as its web server
 // for more info, see: http://expressjs.com
 var express = require('express');
